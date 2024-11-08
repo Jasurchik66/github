@@ -1,0 +1,226 @@
+
+# JavaScript Imtihon Test Savollari (11.10.2024)
+
+1. JavaScript-da o'zgaruvchi e'lon qilishning to'g'ri usuli qaysi?
+   
+   b) let x;
+   
+
+
+2. Quyidagi ifodaning natijasi nima bo'ladi?
+
+   ```javascript
+   console.log(10 + "20");
+   ```
+
+   c) 1020
+
+
+3. JavaScript-da massiv yaratishning to'g'ri usuli qaysi?
+  
+   c) let arr = [1, 2, 3];
+  
+
+4. Quyidagi kodni bajarish natijasida konsolga nima chiqadi?
+
+   ```javascript
+   var x = 5;
+   console.log(x++);
+   ```
+
+   a) 5
+   
+ 
+
+5. JavaScript-da funksiya yaratishning to'g'ri usuli qaysi?
+ 
+   c) function myFunction() {}
+  
+
+6. Quyidagi kod nimani bildiradi?
+
+   ```javascript
+   let x = "5" + 2 + 3;
+   ```
+
+   
+   b) 523
+   
+
+7. JavaScript-da obyekt xususiyatiga murojaat qilishning to'g'ri usuli qaysi?
+   
+   b) object.property
+   
+
+8. Quyidagi kodni bajarish natijasida konsolga nima chiqadi?
+
+   ```javascript
+   var arr = [1, 2, 3];
+   arr[5] = 5;
+   console.log(arr.length);
+   ```
+
+
+   c) 6
+  
+
+9. JavaScript-da shartli operator (ternary operator) qanday yoziladi?
+   a) if ? then : else
+  
+
+10. Quyidagi kodni bajarish natijasida konsolga nima chiqadi?
+
+    ```javascript
+    console.log(typeof NaN);
+    ```
+
+    a) "number"
+  
+
+11. JavaScript-da massiv elementlarini saralash uchun qaysi metod ishlatiladi?
+    
+    b) sort()
+   
+
+12. Quyidagi kodni bajarish natijasida konsolga nima chiqadi?
+
+    ```javascript
+    var a = [1, 2, 3];
+    var b = [1, 2, 3];
+    console.log(a == b);
+    ```
+
+    
+    b) false
+    
+
+13. JavaScript-da quyidagi kod nimani bildiradi?
+
+    ```javascript
+    function test(a, b) {
+      return a * b;
+    }
+    ```
+
+    a) Funktsiya e'loni
+    
+
+14. Quyidagi kodni bajarish natijasida konsolga nima chiqadi?
+
+    ```javascript
+    var x = 10;
+    var y = "10";
+    console.log(x === y);
+    ```
+
+   
+    b) false
+
+
+   15. JavaScript-da massiv elementlarini birlashtirish uchun qaysi metod ishlatiladi?
+    
+    b) concat()
+    
+
+16. Quyidagi kodni bajarish natijasida konsolga nima chiqadi?
+
+    ```javascript
+    var obj = { x: 5 };
+    var obj2 = obj;
+    obj2.x = 10;
+    console.log(obj.x);
+    ```
+
+   
+    b) 10
+
+  17. JavaScript-da "for" tsiklining to'g'ri sintaksisi qaysi?
+    a) for (i = 0; i < 5; i++)
+  
+
+18. Quyidagi kodni bajarish natijasida konsolga nima chiqadi?
+
+    ```javascript
+    var arr = [1, 2, 3, 4, 5];
+    var sum = 0;
+    for (var i in arr) {
+      sum += i;
+    }
+    console.log(sum);
+    ```
+
+   
+    c) "01234"
+ 
+
+19. JavaScript-da massiv uzunligini olish uchun qaysi xususiyat ishlatiladi?
+   
+    b) length
+   
+
+20. Quyidagi kodni bajarish natijasida konsolga nima chiqadi?
+
+    ```javascript
+    function sayHello() {
+      return "Hello";
+    }
+    console.log(typeof sayHello);
+    ```
+
+  
+    b) "function"
+    
+
+21. JavaScript-da obyektning kalitlarini olish uchun qaysi metod ishlatiladi?
+    a) Object.keys()
+   
+
+22. Quyidagi kodni bajarish natijasida konsolga nima chiqadi?
+
+    ```javascript
+    var x = 5;
+    function test() {
+      var x = 10;
+    }
+    test();
+    console.log(x);
+    ```
+
+    a) 5
+  
+
+23. JavaScript-da qatorni katta harflarga o'zgartirish uchun qaysi metod ishlatiladi?
+    a) toUpperCase()
+   
+
+24. Quyidagi kodni bajarish natijasida konsolga nima chiqadi?
+
+    ```javascript
+    var arr = [1, 2, 3];
+    arr.push(4);
+    arr.pop();
+    console.log(arr);
+    ```
+
+  
+    b) [1, 2, 3]
+   
+
+25. JavaScript-da quyidagi ifoda nimani bildiradi?
+    ```javascript
+    var result = condition ? value1 : value2;
+    ```
+
+    c) Ternary operator
+    
+
+
+
+
+
+
+
+
+
+
+
